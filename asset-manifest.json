@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wedding-check-calculator/static/css/main.c38597a4.css",
-    "main.js": "/wedding-check-calculator/static/js/main.f818e223.js",
+    "main.js": "/wedding-check-calculator/static/js/main.f4bec88f.js",
     "static/js/488.a496f545.chunk.js": "/wedding-check-calculator/static/js/488.a496f545.chunk.js",
     "index.html": "/wedding-check-calculator/index.html",
     "main.c38597a4.css.map": "/wedding-check-calculator/static/css/main.c38597a4.css.map",
-    "main.f818e223.js.map": "/wedding-check-calculator/static/js/main.f818e223.js.map",
+    "main.f4bec88f.js.map": "/wedding-check-calculator/static/js/main.f4bec88f.js.map",
     "488.a496f545.chunk.js.map": "/wedding-check-calculator/static/js/488.a496f545.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c38597a4.css",
-    "static/js/main.f818e223.js"
+    "static/js/main.f4bec88f.js"
   ]
 }
