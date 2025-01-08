@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fef8f5;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+      transition: background-color 0.5s ease;
+}
+
+.App {
+  text-align: center;
+  background: linear-gradient(145deg, #ffffff, #f3e7e3);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 500px;
+  width: 90%;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  color: #ff7f50;
+  margin-bottom: 20px;
+}
+
+
+.form-group {
+  margin: 20px 0;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ffefd5;
+  border-radius: 8px;
+  background-color: #fffaf0;
+  box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+select:focus {
+  border-color: #ff7f50;
+  box-shadow: 0 0 8px rgba(255, 127, 80, 0.5);
+}
+
+
+.calculate-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.calculate-btn:hover {
+  background-color: #ff6347;
+  transform: scale(1.05);
+}
+
+
+.result {
+  margin-top: 20px;
+  background-color: #fffaf0;
+  border: 2px solid #ffefd5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.result h2 {
+  color: #ff7f50;
+  font-size: 1.8rem;
+}
+
+.result p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .calculate-btn {
+    font-size: 1rem;
+  }
+
+  .result p {
+    font-size: 1.2rem;
+  }
+}
