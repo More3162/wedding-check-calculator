@@ -35,22 +35,22 @@ const App = () => {
     // amount based on relationship
     switch (relationship) {
       case "family-close":
-        baseAmount = 500;
+        baseAmount = 800;
         break;
       case "family-distant":
-        baseAmount = 300;
-        break;
-      case "close-friend":
-        baseAmount = 400;
-        break;
-      case "friend-like-sibling":
         baseAmount = 450;
         break;
-      case "coworker":
-        baseAmount = 250;
+      case "close-friend":
+        baseAmount = 600;
         break;
-      case "bad-relationship":
-        baseAmount = 150;
+      case "friend-like-sibling":
+        baseAmount = 900;
+        break;
+      case "coworker":
+        baseAmount = 400;
+        break;
+      case "chosen-family":
+        baseAmount = 1000;
         break;
       default:
         baseAmount = 0;
@@ -107,7 +107,7 @@ const App = () => {
           <option value="close-friend">Close Friend 🤝</option>
           <option value="friend-like-sibling">Friend (Like Sibling) 👫</option>
           <option value="coworker">Coworker 💼</option>
-          <option value="bad-relationship">Bad Relationship 💔</option>
+          <option value="chosen-family">Family By Choice 🌟</option>
         </select>
       </div>
 
